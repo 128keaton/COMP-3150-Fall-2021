@@ -1,2 +1,6 @@
+*.swp
+*.c.swp
+*/**/*.c.swp
+.*.swp
+.*.swo
 *.zip
-*.out
