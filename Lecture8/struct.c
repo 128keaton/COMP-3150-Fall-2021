@@ -22,5 +22,11 @@ int main(void)
 	end = (struct time){'a', 12, 0};
         printf("%d:%.2d %cm\n", end.hour, end.minute, end.m);
 
-	printf("%zu bytes\n", sizeof (struct time));
+	printf("Struct time has a size of %zu bytes\n", sizeof (struct time));
+
+
+	end = start;
+
+	if (end.m == start.m && end.hour == start.hour && end.minute == start.minute) puts("Woah");
 }
+
