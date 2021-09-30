@@ -7,6 +7,8 @@ int main(void)
 
 	pair * p = malloc(sizeof(pair));
 
-	(*p).x = 3;
-	(*p).y = 4;
+	p->x = 3;
+	p->y = 4;
+
+	printf("Pair: %d, %d \r\n", p->x, p->y);
 }
