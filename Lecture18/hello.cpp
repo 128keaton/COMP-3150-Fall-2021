@@ -1,5 +1,6 @@
 #include <iostream>
 using std::cout;
+using std::cin;
 
 
 #include <iomanip>
@@ -18,4 +19,10 @@ int main() {
 
 	// 	setprecision is sticky,	       switch to using fixed precision
 	cout << setprecision(5) << y << ' ' << fixed << y << '\n';
+
+	cin >> x;
+	cout << x << '\n';
+
+	cin >> y;
+	cout << y << '\n';
 }
