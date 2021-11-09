@@ -10,3 +10,9 @@
 *.~lock.*#
 *.~lock.*.*#
 **/Notes/
+CMakeLists.txt
+cmake-build-debug/
+*.pdf
+~$*.docx
+.DS_Store
+.idea/
